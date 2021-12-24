@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My simple calculator</title>
+    <style>
+        input{
+             padding:5px 10px;
+             margin: 2px 5px;
+             border-radius: 10px;
+             
+
+        }
+    </style>
+</head>
+<body>
+    <h1 align="center">My simple calculator</h1>
+<center>    <form name="web">
+    <input type="text" name="result"><br><br>
+     <input type="button" value="1"onclick="document.web.result.value+=1">
+     <input type="button" value="2"onclick="document.web.result.value+=2">
+     <input type="button" value="3"onclick="document.web.result.value+=3">
+     <input type="button" value="4"onclick="document.web.result.value+=4"><br><br>
+
+     <input type="button" value="5"onclick="document.web.result.value+=5">
+     <input type="button" value="6"onclick="document.web.result.value+=6">
+     <input type="button" value="7"onclick="document.web.result.value+=7">
+     <input type="button" value="8"onclick="document.web.result.value+=8"><br><br>
+
+     <input type="button" value="9"onclick="document.web.result.value+=9">
+     <input type="button" value="0"onclick="document.web.result.value+=0">
+     <input type="button" value="+"onclick="document.web.result.value+='+'">
+     <input type="button" value="-"onclick="document.web.result.value+='-'"> <br><br>
+ 
+     <input type="button" value="*"onclick="document.web.result.value+='*'">
+     <input type="button" value="/"onclick="document.web.result.value+='/'">
+     <input type="button" value="c"onclick="document.web.result.value=''">
+     <input type="button" value="="onclick="document.web.result.value=eval(document.web.result.value)">
+</form>
+</center>
+    
+</body>
+</html>
